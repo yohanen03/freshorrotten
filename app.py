@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = './static/uploads/'
-model = load_model('rottenvsfresh1.h5')
+model = load_model('rottenvsfresh.h5')
 
 class_dict = {0: 'Fresh', 1: 'Rotten'}
 
